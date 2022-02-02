@@ -21,8 +21,8 @@ public class MainSpring {
 		UserRepository userRepository = applicationContext.getBean(UserRepository.class);
 
 		try {
-			Register register = new Register("reg0006", "Eishika", "Chithreddy", "eishika@gmail.com", "eish123", null);
-			register.setContactNumber(new BigDecimal("9321654870"));
+			Register register = new Register("reg0006", "shivam", "singh", "shivam@gmail.com", "singh123", null);
+			register.setContactNumber(new BigDecimal("9938469374"));
 			String result = userRepository.addUser(register);
 			System.out.println(result);
 		} catch (InvalidIdLengthException | InvalidNameException | InvalidEmailException | InvalidPasswordException e) {

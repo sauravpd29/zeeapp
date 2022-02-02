@@ -21,8 +21,8 @@ public class Main {
 		// TODO Auto-generated method stub
 //		try {
 //			UserService service = UserServiceImpl.getInstance();
-//			Register register = new Register("reg0006", "Eishika", "Chithreddy", "eishika@gmail.com", "eish123", null);
-//			register.setContactNumber(new BigDecimal("9321654870"));
+//			Register register = new Register("reg0006", "shivam", "singh", "shivam@gmail.com", "singh123", null);
+//			register.setContactNumber(new BigDecimal("9938469374"));
 //			String result = service.addUser(register);
 //			System.out.println(result);
 //		} catch (InvalidIdLengthException | InvalidNameException | InvalidEmailException | InvalidPasswordException | IOException e) {
@@ -63,8 +63,8 @@ public class Main {
 		
 //		try {
 //			UserService service = UserServiceImpl.getInstance();
-//			Register register = new Register("reg0006", "Eishika2", "Chithreddy2", "eishika2@gmail.com", "eish2123", null);
-//			register.setContactNumber(new BigDecimal("9321654872"));
+//			Register register = new Register("reg0006", "shivam2", "singh2", "shivam2@gmail.com", "singh2123", null);
+//			register.setContactNumber(new BigDecimal("9321662789"));
 //			String result = service.updateUser("reg0006", register);
 //			System.out.println(result);
 //		} catch (InvalidIdLengthException | InvalidNameException | InvalidEmailException | InvalidPasswordException | IOException | IdNotFoundException e) {
