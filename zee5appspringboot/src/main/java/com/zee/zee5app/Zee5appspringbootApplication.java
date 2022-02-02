@@ -17,8 +17,8 @@ public class Zee5appspringbootApplication {
 				SpringApplication.run(Zee5appspringbootApplication.class, args);
 		
 		UserService userService = applicationContext.getBean(UserService.class);
-		Register register = new Register("reg0001", "Rithwik", "Chithreddy", "rithwik@gmail.com", "rith123", null);
-		register.setContactNumber(new BigDecimal("9321654870"));
+		Register register = new Register("reg0001", "Saurav", "Prasad", "saurav@gmail.com", "spd123", null);
+		register.setContactNumber(new BigDecimal("70915833744"));
 		System.out.println(userService.addUser(register));
 		
 		applicationContext.close();
